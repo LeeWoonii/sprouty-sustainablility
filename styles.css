@@ -1,0 +1,144 @@
+body {
+    color: #24362b;     
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+#navbar{
+    background-color: rgb(9, 98, 9) !important;
+    position: sticky;
+    top: 0;
+    z-index: 1030;
+    width: 100%;
+}
+navbar a {
+    float: left;
+    display: block;
+    color: #f2f2f2;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+.navbar-dark .navbar-nav .nav-link {
+    color: rgba(255, 255, 255, 0.85);
+}
+  .navbar-dark .navbar-nav .nav-link:hover,
+  .navbar-dark .navbar-nav .nav-link.active {
+    color: #fff;
+}
+
+header{
+    height: 640px;
+}
+#hero{
+    background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("images/hero.svg");
+    object-position: center;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+    color: white;
+}
+
+#btn1{
+    background-color: rgb(13, 102, 13);
+    color: white;
+}
+
+footer{
+    background-color: rgb(9, 98, 9) !important;
+}
+
+#slog{
+    color: rgb(185, 206, 189);
+}
+
+#copy{
+    color: rgb(185, 206, 189);
+}
+
+#learn{
+    background-color: rgb(185, 206, 189);
+}
+
+.card{
+    background-color: rgb(206, 214, 202);
+    color: rgb(10, 52, 10);
+    max-width: 20rem;
+    margin-inline: auto;
+  
+}
+
+.card-btn{
+    background-color: rgb(10, 52, 10);
+    outline-color: rgb(7, 31, 7);
+    color: rgb(185, 206, 189);
+}
+
+#practices{
+    background-color: rgb(221, 233, 223);
+}
+
+.flashcard {
+    width: 300px;
+    height: 200px;
+    perspective: 1000px;
+    margin: 50px auto;
+}
+ 
+.flashcard > div {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    backface-visibility: hidden;
+    transition: transform 0.6s;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+ 
+.front {
+    background-color: #f0f0f0;
+}
+ 
+.back {
+    background-color: #e0e0e0;
+    transform: rotateY(180deg);
+}
+ 
+.flashcard:hover .front {
+    transform: rotateY(180deg);
+}
+ 
+.flashcard:hover .back {
+    transform: rotateY(0deg);
+}
+
+@media (max-width: 600px) {
+    .flashcard {
+        width: 200px;
+        height: 150px;
+    }
+}
+
+.cards-holderr{
+    background-color: white !important;
+}
+
+#business{
+    background-color: rgb(185, 206, 189);
+}
+
+#awareness{
+    background-color: rgb(221, 233, 223);
+}
+
+#games{
+    background-color: rgb(185, 206, 189);
+}
+
+.card-img-top {
+    height: 200px;
+    object-fit: cover;
+}
